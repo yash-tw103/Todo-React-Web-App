@@ -1,3 +1,15 @@
+# UNDERSTANDING FOLDER STRUCTURE
+# Src
+ - It contains App.js which is our main functional component that will render all other components.
+- Todo.js which is our functional component consist of our Todo list application , where all the requests hve done.
+- We have Get request that we Fetch through the Api , where we get all our fetched data
+- We have Post request to post the data in a state where we have fetched all of our data
+- We have Put request to update any todo by selecting it's id and transferring it to another state
+- We have our Delete request that works when delete button is pressesd , the id gets transferred to the function and the work is Done.
+
+# Styling
+ - Styling is done with the help of Bootstrap 5. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
